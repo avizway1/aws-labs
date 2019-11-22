@@ -7,7 +7,8 @@ Install Cloudwatch unified agent on EC2 instance
 3) Login to the instance
 
 4) Find the required cloudwatch agent download link:
-https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/install-CloudWatch-Agent-on-first-instance.html
+
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/download-cloudwatch-agent-commandline.html
 
 5) Download the Cloudwatch Unified Agent. Find the right agent link for your OS by visiiting the above link
 ```console
