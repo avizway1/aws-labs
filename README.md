@@ -1,7 +1,7 @@
 ## AWS Avinash Reddy
 
 Currently Maintained on: 
-** https://github.com/avizway1/aws-labs **
+**https://github.com/avizway1/aws-labs**
 
 AWS and related Labs notes
 
