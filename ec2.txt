@@ -8,10 +8,10 @@ Reserved Instances : Stable workloads.. Contrac : 1 Yr / 3 Yrs...
 
 	Standard RI : We cannot upgrade the configuration.
 	Convertable RI : We can change the configuration in future. 
-	Scheduled RI : purchase capacity reservations that recur on a daily, weekly, or 		               monthly basis,  start time and duration, for a one-year term.
+	Scheduled RI : purchase capacity reservations that recur on a daily, weekly, or monthly basis,  start time and duration, for a one-year term.
 Pricing : Full Upfront : Pay 100% now (onetime cost)
-	Partial upfront : Pay 30-50% now.. Remaining monthly basis based on running hours
-	No upfront : All amount monthly basis only
+Partial upfront : Pay 30-50% now.. Remaining monthly basis based on running hours
+No upfront : All amount monthly basis only
 
 
 Spot Instances : If our application have flexible start/stop time. 
@@ -47,9 +47,6 @@ Monitoring : Cloudwatch :
 	Basic Monitoring : 5 Min (Free tier), Enabled by defaultly
 	Enhanced/Detailed Monitoring : 1 Min (No Free tier)
 
-
-
-
 Step 6: Configure Security Group
 --> No Deny
 
@@ -68,8 +65,6 @@ mysql:3306
 Source : 0.0.0.0/0 --> Everywhere
 	IPAddress --> manual
 	MyIP --> Currently connected network Public ip
-
-
 Outbound : allo all traffic by defaultly.
 
 
@@ -77,7 +72,6 @@ Free Tier : 750 Hrs/Month, t2.micro Windows Instance (1 x 31 days = 744 Hrs)
 	    750 Hrs/Month, t2.micro Linux Instance
 
 Storage : 30 gb
-
 
 
 
@@ -148,28 +142,3 @@ additional volumes : st1 & sc1
 
 --> Throughput optimised HDD (st1) : Min 500 Gb, Max 16 TB, Throughput
 --> Cold HDD (sc1) 
-
-Golden AMI / Images : 
-
-
-Instance : Putty, Change wallpaper, change the password, create a new user.. 
-
-
-
-
-
-
-
-Scenario 1 : 
-
-
-
-
-
-
-
-
-
-
-
-
