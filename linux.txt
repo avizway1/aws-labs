@@ -1,0 +1,120 @@
+AWSAVINSH
+
+https://www.udemy.com/course/linuxwithavinash/?couponCode=AWSAVINSH
+
+
+
+
+
+
+
+
+whoami		--> tells as a what user you are working as
+sudo su		--> switch to root user from ec2-user
+yum update -y	--> Updated the OS with latest patches
+
+yum install httpd -y	--> Installed apache webserver
+
+service httpd status / start / stop / restart
+
+chkconfig httpd on	--> To make Apache as a Logon/startup service
+
+Path: /var/www/html
+
+cd /var/www/html/
+
+
+Vim Editor :
+
+vim index.html		
+
+i 	--> INSERT Mode
+Esc 	--> Come out from Insert mode / readonly mode
+:wq	--> Write and Quit
+:q!	--> Quit without writing changes / Quit forecefully
+
+
+
+<html>
+        <h1>This is a simple website</h1>
+</html>
+
+
+
+-----------
+
+
+Create a volume and associate to instance
+
+df -Th
+lsblk		-->: Lists the block based devcies (get the name)
+
+mkfs -t ext4 /dev/xvdf
+
+mkdir newvolume
+
+mount /dev/xvdf newvolume
+
+cat /etc/mtab		and grab the entry related to newly associated volume
+
+vim /etc/fstab		and the copied entry 
+
+mount -a / -all
+
+_____________________________________________________
+
+Set passwords for root/ec2-user 
+
+passwd root	--> enter / confirm
+passwd ec2-user --> enter / confirm
+
+
+
+file name : sshd_config 
+
+cd /etc/ssh/
+
+edit passwordauthentication from no to yes
+
+service sshd restart
+
+
+**USERDATA**
+
+#!/bin/bash
+yum update -y
+yum install httpd -y
+service httpd start
+chkconfig httpd on
+echo "<h1>This is a Userdata Website 2</h1>" > /var/www/html/index.html
+
+
+**METADATA**
+
+curl http://169.254.169.254/latest/user-data
+
+curl http://169.254.169.254/latest/meta-data
+
+ami-id
+ami-launch-index
+ami-manifest-path
+block-device-mapping/
+events/
+hostname
+identity-credentials/
+instance-action
+instance-id
+instance-type
+local-hostname
+local-ipv4
+mac
+metrics/
+network/
+placement/
+profile
+public-hostname
+public-ipv4
+public-keys/
+reservation-id
+security-groups
+
