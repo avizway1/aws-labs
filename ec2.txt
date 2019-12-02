@@ -142,3 +142,7 @@ additional volumes : st1 & sc1
 
 --> Throughput optimised HDD (st1) : Min 500 Gb, Max 16 TB, Throughput
 --> Cold HDD (sc1) 
+
+
+
+https://www.youtube.com/watch?v=sZiiB4yF0VY
