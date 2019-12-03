@@ -162,3 +162,14 @@ Task 3 : Configure Scheduled task/cron job to replicate s3 data periodically for
 
 Task 4 : Use WinSCP to transfer some files to our ec2 instance.
 
+Task : 12/3/2019
+
+Using "Run Command" install httpd and deliver a website
+
+Using "Run Command" install any application in windows instance.
+
+Using powershell script with SSM run command, change the timezone of windows instance
+
+Create Resource group using particular Tag. 
+
+explore ec2windowsrescue tool
