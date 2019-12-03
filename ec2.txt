@@ -143,6 +143,22 @@ additional volumes : st1 & sc1
 --> Throughput optimised HDD (st1) : Min 500 Gb, Max 16 TB, Throughput
 --> Cold HDD (sc1) 
 
+Create an EFS and Mount to an ec2 instance and install Httpd then prepare a GoldenAMI.
 
+1. GoldenAMI	(Apache web server, EFS is mounted)
+2. An ELB	(Plain/empty ELB)
+3. Create an ASG
+	3.1 Create a launch config (Tempate --> settings)
+	3.2 Create an ASG (Alarm)
 
 https://www.youtube.com/watch?v=sZiiB4yF0VY
+
+
+Task 1 : AWS Cross Account access using roles.
+
+Task 2 : Launch an ec2 instance using CLI.
+
+Task 3 : Configure Scheduled task/cron job to replicate s3 data periodically for every 5 min.
+
+Task 4 : Use WinSCP to transfer some files to our ec2 instance.
+
