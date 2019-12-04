@@ -1,0 +1,52 @@
+AWS : 
+
+2003 , Chris Pinkman and benjamin black.. Whitepapers to sell services .. SQS.. 
+
+2006 : Officially launched in 2006 : s3, ec2 and sqs.
+
+Jess Bejos : CEO Amazon
+
+Andy Jessy : CEO AWS
+
+AWS Annual Conference : AWS Re:Invent (Nov last / Dec 1st week) Los Vegas
+
+Why only AWS.?
+
+
+AWS Global infrastructure : 
+
+Region : Geograhical location / Physical location : 22 Launched Regions : 18 For all users..  4 : 2 China, 2 us-gov-cloud.. 
+
+mumbai : ap-south-1
+N Virginia : us-east-1
+
+Every region contains Min of 2 AZs.. 
+
+AZs (Availability Zones) : 69 Availability Zones : Data Centre / Combination of multiuple DC.. 
+
+AZ : Mumbai : ap-south-1a, ap-south-1b, ap-south-1c
+N Virginia : us-east-1a, us-east-1b, us-east-1c, us-east-1d,e,f (billing region)
+
+PoP / Edge Location : 210 Points of Presence : CDN Endpoints (Content Delivey Network)
+Cloudfront 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
