@@ -32,6 +32,131 @@ Cloudfront
 
 
 
+How to Create an AWS Account.?
+
+Url : aws.amazon.com/free				
+
+Email , Password, Confirm Password and Account name	
+
+Contact Information : Personal Account / Professional Account 
+	First name, lastname, address.. 		
+
+Payment Information : Visa , Master Card and AMEX	2 INR / Refund
+
+Verify Identity : Capcha, Phone Number --> Call me now --> 0000 --> Call --> Enter 4 digit pin
+
+Choose a Support Plan : 
+
+1. Account and Billing Related : Free for all support plans, 24x7
+2. Service Limit Increase : Free for all support plans, 24x7
+3. Technical Assistance : Depends on Support Plan
+
+
+Basic Support : 1, 2 24x7 .. No Technical support : Free, 7 Core areas check
+
+Developer Support : 30$/Month, 3 --> 12-24 Local business hours.. 1 primary contact.. 
+
+Business Support : 100$/Month, 3 --> 1 Hr Production, FUll Trusted advisor advises
+
+Enterprise Support : 15k $/Month, 3 --> 15 Min Business Critical, Technical Manager Review , Trusted advisor full checks, Trainings.. 
+
+
+trusted Advisor : Suggestions on AWS account to save cost, security, performance.. 
+
+
+Knowledge centre : Basic Support Plan : 
+
+APN : Amazon Partner Networks :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EC2 : Server : 750 Hours /Month Free Tier  WIndows t2.micro : 1 server = 31 Days.. 
+		750 Hrs/ Month t2.micro Linux 
+S3 : Storage  : 5 Gb Standard storage 
+RDS : Database : 750 Hr/s Month db.t2.micro...  1 db = 31 days... 
+
+
+
+
+
+Virtual MFA : Smartphone
+
+ios/Android : Google Authenticator / Authey 2-factor Authenticator
+
+
+Email Id used to create an AWS account called as "root" user.
+
+
+Root cred : 
+
+Manager : Admin Access : root
+TL : Admin Access : AdminAccess on all resources and services
+Server : ec2 : Ec2FullAccess
+storage : s3 : S3FullAccess 
+
+
+IAM : Identity and Access mangaement  : We can limit the user access on AWS account, based on their job roles. 
+
+Policies : Document Contains set of permissions on AWS, It writtens in JSON format.
+
+
+Readonly user : 
+
+
+User Name : readonlyuser
+
+Select AWS access type: 
+1. Programatic Access : CLI : Accesskeyid and Secret access key
+2. Management Console Access : GUI : username, password and Sign-In Url
+
+ReadOnlyAccess : Provides read-only access to AWS services and resources.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
