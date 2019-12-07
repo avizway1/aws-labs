@@ -1,0 +1,78 @@
+Public IP : Unique IP address, across the globe.  : 183.83.39.135
+Private IP : Works with in the Network. : 192.168.100.7
+
+
+IPv4 : 32 bit : 2^32 IP addresses : 
+
+Class A : 
+CLass B : 
+Class C : 
+Class D : Multicasting/braodcasting
+Class E : R&D
+
+
+0-255 : 256 ip addresses : 192.168.0.0 Network ID,  192.168.255.255 Broadcasting ID
+
+
+Class A :  N.H.H.H  
+Class B :  N.N.H.H
+Class C :  N.N.N.H  
+
+192.168.100.0 : 
+192.168.100.1 / 2 / 3 / 4 ..... / 255. : Java
+
+192.168.101.0 - 255  : 256-2 : 254 usable : .net
+192.168.102.0 - 255 : 256-2 : 254 usable : php
+
+
+
+/32	/31	/30	/29	/28	/27	/26.. 	/25	/24 	/16...	/0
+
+2^0	2^1	2^2	2^3	2^4	2^5	2^6..	2^7	2^8	2^32
+
+1	2	4	8	16	32	64.. 	128	256	65536	4M
+
+
+192.168.0.0/24 : 256 - 5 : 251 usable IPs
+192.168.0.0/16 : 65536 - 5 : 65531 usable IPs
+
+30 Usable IP addresses : What subnet we can use in AWS :  
+
+
+AWS Reserves 5 IP addresses :
+1. Network ID
+2. Broadcosting ID
+3 - 4 : DNS Servers
+5 : Future use
+
+
+
+Public Subnet : Internet facing : Web Servers 
+Private Subnet : Internally / Not an internet facing : Database / Secure servers : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
