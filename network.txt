@@ -2,12 +2,15 @@ Public IP : Unique IP address, across the globe.  : 183.83.39.135
 Private IP : Works with in the Network. : 192.168.100.7
 
 
-IPv4 : 32 bit : 2^32 IP addresses : 
+IPv4 : 32 bit : 2^32 IP addresses
+IPv6 : 128 bit : 2^128 IP addresses
+
+IPv4 :
 
 Class A : 
 CLass B : 
 Class C : 
-Class D : Multicasting/braodcasting
+Class D : Multicasting/broadcasting
 Class E : R&D
 
 
@@ -49,6 +52,48 @@ AWS Reserves 5 IP addresses :
 
 Public Subnet : Internet facing : Web Servers 
 Private Subnet : Internally / Not an internet facing : Database / Secure servers : 
+
+
+Step 1 : Create a VPC : CustomVPC : 192.168.0.0/16 : Default
+
+
+Step 2 : Create Subnets under CustomVPC 
+	Public Subnet : 192.168.1.0/24 : ap-south-1a
+	Private Subnet : 192.168.2.0/24 : ap-south-1b
+
+Step 3 : Create an Internet Gateway : CustomIGW ; Associated to CustomVPC
+
+Step 4 : Create a new Route under CustomVPC 
+
+	4.1 Add a route 0.0.0.0/0 --> Internet Gateway
+	4.2 Associate the required subnets (ap-south-1a)
+
+
+Step 5 :(Optional) : Enable auto assign public ip settings on Public Subnet (ap-south-1a)
+
+
+Bastion Host / Jump Server : This is an Ec2 instance, it runs in Public subnet, to get connected to all our private subnet instances.
+
+Launch an ec2 instance in Public Subnet and connect from local device.
+
+Launch an ec2 instance in Private SUbnet and try to connect from local device, COnnect from a Jump server.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
