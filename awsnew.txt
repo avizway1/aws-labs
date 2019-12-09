@@ -124,6 +124,58 @@ Select AWS access type:
 ReadOnlyAccess : Provides read-only access to AWS services and resources.
 
 
+Associate Required permissions :  
+--> Create a Group, add permissions at group level and add user to group.
+--> Copy permissions from Another User
+--> Attach policy Directly
+
+Policy : JSON, COntains set of permissions on AWS.
+
+
+Add tags and review and create.
+
+Administrator policy: Perform any operation on AWS Services and Resources but not related to account management.
+
+Poweruser Polocy : Provides full access to AWS services and resources, but does not allow management of Users and groups.
+
+ReadOnlyAccess : Provides read-only access to AWS services and resources.
+
+
+Cloudtrail : Logging service on AWS.
+
+
+
+User : Admin Access but not s3..  DenyS3
+
+polocies : 3 Types
+
+1. AWS Managed (500+)
+2. job Function (Network Admin , db admin)
+3. Customer Managed 
+
+
+
+Explicitly DENY
+
+user : Admin user level : Group Admin : Group Denys3  --> DenyS3r
+
+
+Policy simulator : 
+
+
+allow s3 but deny ec2 : 
+
+
+
+task 1 : Create an IAM user and associate "AdministratorAccess" policy, login and verify his access.
+
+task 2 : use task1 user and try to access Billing dashboard, and enable Billing permissions to this IAM user.
+
+Task 3 : Create an IAM user with Admin Permissions and Create a custom policy with "S3DENY" associate same to user and test the output.
+
+Task 4 : Task3 user, create a Group woth S3FullAccess, Another group with "AdministratorAccess" and Add Task3 user to multiple groups and test the access on S3 platform.
+
+Task 5 : Run the policy simulator on Task4 User and understand what policy is denying s3 access for this IAM user.
 
 
 
@@ -142,12 +194,7 @@ ReadOnlyAccess : Provides read-only access to AWS services and resources.
 
 
 
-
-
-
-
-
-
+ 
 
 
 
