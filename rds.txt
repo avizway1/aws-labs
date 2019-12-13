@@ -1,0 +1,70 @@
+RDS : Relation Database Service : OLTP
+
+1. Amazon Aurora  	--> Mysql / Postgresql
+2. MySql		--> mysql Workbench
+3. MS SQL		--> SSMS (Sql server Management studio)
+4. PostGreSQL		--> PgAdmin
+5. MariaDB		--> Workbench
+6. Oracle		--> Toad
+
+
+
+License :
+1. license-included
+2. General Public License
+3. BYOL (Bring your own license)
+
+Freetier : 750 Hours / Month, db.t2.micro  20gb general purpose storage
+
+
+Homogenious Migration :  On Prem Mysql --> DMS --> AWS Mysql
+Heterogenious migration : onPrem mongo --> SCT (Schema Convertion tool) --> DMS --> AWS
+
+NoSQL : DynamoDB (Serverless)  (Caching : Dynamodb Accelerator/ DAX)
+
+Data Warehousing : Redshift : OLAP
+
+Caching : Elasticache (Memchached and Redis)
+
+
+
+DB Engine : MSSQL
+
+License : license-included
+
+FreeTIer, db.t2.micro
+
+DBInstance identifier , Master Username and Password
+
+VPC : CustomVPC, Private SUbnet, Public Accessebility: NO, New Security Group
+
+BackUP : Automated Backups
+	Backup retention period : Min 1 Day, Max 35 Days.. Default 7
+
+Maintenance : Auto minor version upgrade. 
+
+
+Task 1 : Launch an Mssql RDS instance in CustomVPC Private subnet with public accesebility: No. 
+
+Task 2 : Launch an ec2 instance in CustomVPC PublicSUbnet, Install SSMS and Connect to RDS instance launched in task1.
+
+
+Optional: 
+Task 3 : Install Mssql Express Database and connect. 
+Task 4 : Connect to Ec2 instance running mssql express database from your local device. (mssql 2012 r2 express edition)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
