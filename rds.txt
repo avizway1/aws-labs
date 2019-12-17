@@ -54,6 +54,48 @@ Task 3 : Install Mssql Express Database and connect.
 Task 4 : Connect to Ec2 instance running mssql express database from your local device. (mssql 2012 r2 express edition)
 
 
+Amazon Aurora : 
+--> MySql compatable
+--> PostGreSQL compatable
+
+--> Region
+--> Globe
+
+--> One Writer and Multiple Reader
+--> Serverless
+
+Failover Priority : tier 0 > tier 1 > tier 1 > tier 2 > ... Tier 15
+______________________________________________________________________
+
+DynamoDB : Serverless : NoSQL database : 
+
+--> Single digit Milli Second latency at any Scale.. Mobile application, Gaming, Ad-Hoc, IoT
+DAX Cluster : DynamoDB Accelerator Cluster : InMemory caching for DynamoDB
+
+________________________________________________________________________
+
+Redshift : Datawarehousing solution : 
+--> Columnar database
+--> all data stores in SSD
+--> One of the low cost DW solution
+
+Compute nodes store your data and execute your queries. 
+In addition to your compute nodes, a leader node will be added to your cluster, free of charge. 
+
+The leader node is the access point for ODBC/JDBC and generates the query plans executed on the compute nodes.
+
+_________________________
+
+Elasticache : In-Memory caching solution for RDS, We have two opensource caching engines.
+--> Redis
+--> MemcacheD
+
+
+
+
+
+
+
 
 
 
