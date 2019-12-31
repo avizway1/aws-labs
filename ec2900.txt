@@ -215,7 +215,7 @@ Partition : Partition placement groups help reduce the likelihood of correlated 
 
 
 
-
+LAMP : Linux Apache Mysql PHP
 
 
 
